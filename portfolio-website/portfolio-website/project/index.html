@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelvin Kagwi - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">KK</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="profile-image">
+                <img src="https://placekitten.com/200/200" alt="Kelvin Kagwi" class="avatar">
+            </div>
+            <h1>Kelvin Kagwi</h1>
+            <div class="typed-text"></div>
+            <div class="social-links">
+                <a href="https://linkedin.com" target="_blank" class="social-btn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://linktr.ee" target="_blank" class="social-btn"><i class="fas fa-link"></i> LinkTree</a>
+                <a href="https://github.com" target="_blank" class="social-btn"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://twitter.com" target="_blank" class="social-btn"><i class="fab fa-twitter"></i> Twitter</a>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <a href="#about">
+                <i class="fas fa-chevron-down"></i>
+                <span>Scroll Down</span>
+            </a>
+        </div>
+    </section>
+
+    <section id="about" class="about" data-aos="fade-up">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="https://placekitten.com/400/300" alt="Kelvin at work" class="work-image">
+            </div>
+            <div class="about-text">
+                <p>Kelvin Kagwi is an experienced Digital Marketing Specialist with a demonstrated history of working in the marketing and advertising industry. He is skilled in competitor research and analysis, search engine optimization, social media marketing, customer service and copywriting.</p>
+                <p>With a Bachelor's degree in Business and Information Technology from the Multimedia University of Kenya, Kagwi combines technical expertise with business acumen. As a Data Scientist and Communications Volunteer at Kenya Malaria Youth Corps, he leverages data-driven insights to make impactful decisions.</p>
+                <div class="stats">
+                    <div class="stat-item">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Projects Completed</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">30+</span>
+                        <span class="stat-label">Happy Clients</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills" data-aos="fade-up">
+        <h2>Skills & Expertise</h2>
+        <div class="skills-grid">
+            <div class="skill-card" data-tilt>
+                <i class="fas fa-chart-line"></i>
+                <h3>Data Science</h3>
+                <p>Advanced analytics, Machine Learning, Statistical Analysis, Python, R, SQL</p>
+                <div class="skill-level">
+                    <div class="progress" style="width: 90%"></div>
+                </div>
+            </div>
+            <div class="skill-card" data-tilt>
+                <i class="fas fa-bullhorn"></i>
+                <h3>Digital Marketing</h3>
+                <p>SEO, Social Media Marketing, Content Strategy, Google Analytics, Email Marketing</p>
+                <div class="skill-level">
+                    <div class="progress" style="width: 95%"></div>
+                </div>
+            </div>
+            <div class="skill-card" data-tilt>
+                <i class="fas fa-tasks"></i>
+                <h3>Project Management</h3>
+                <p>Agile Methodologies, Team Leadership, Strategic Planning, Risk Management</p>
+                <div class="skill-level">
+                    <div class="progress" style="width: 85%"></div>
+                </div>
+            </div>
+            <div class="skill-card" data-tilt>
+                <i class="fas fa-laptop-code"></i>
+                <h3>IT Professional</h3>
+                <p>Technical Solutions, System Analysis, Infrastructure Management, Cloud Computing</p>
+                <div class="skill-level">
+                    <div class="progress" style="width: 88%"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <div class="portfolio-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="data-science">Data Science</button>
+            <button class="filter-btn" data-filter="marketing">Marketing</button>
+            <button class="filter-btn" data-filter="it">IT Projects</button>
+        </div>
+        <div class="portfolio-grid">
+            <!-- Portfolio items will be populated by JavaScript -->
+        </div>
+    </section>
+
+    <section id="resume" class="resume" data-aos="fade-up">
+        <h2>Resume</h2>
+        <div class="resume-content">
+            <div class="resume-header">
+                <h3>Professional Experience & Education</h3>
+                <a href="/assets/Kelvin-Kagwi-Resume.pdf" class="btn download-btn" download>
+                    <i class="fas fa-download"></i> Download Full Resume (PDF)
+                </a>
+            </div>
+            <div class="resume-preview">
+                <div class="resume-section">
+                    <h4>Professional Summary</h4>
+                    <p>Experienced Data Scientist and Digital Marketing Specialist with a proven track record in implementing data-driven strategies and marketing campaigns. Currently volunteering expertise to combat malaria in Kenya through data analysis and communications.</p>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>Data Scientist & Communications Volunteer</h4>
+                            <h5>Kenya Malaria Youth Corps</h5>
+                            <p class="timeline-date">2022 - Present</p>
+                            <ul>
+                                <li>Lead data analysis initiatives for malaria prevention programs</li>
+                                <li>Develop communication strategies based on data insights</li>
+                                <li>Coordinate with stakeholders to implement data-driven solutions</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>Digital Marketing Specialist</h4>
+                            <h5>Marketing Agency</h5>
+                            <p class="timeline-date">2020 - 2022</p>
+                            <ul>
+                                <li>Managed digital marketing campaigns for multiple clients</li>
+                                <li>Implemented SEO strategies resulting in 150% traffic increase</li>
+                                <li>Developed content strategies and social media campaigns</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact" data-aos="fade-up">
+        <h2>Contact Me</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-card">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:kelvinmwas8@gmail.com">kelvinmwas8@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p><a href="tel:+254XXXXXXXXX">+254 XXX XXX XXX</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Nairobi, Kenya</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <form class="contact-form" id="contactForm" action="mailto:kelvinmwas8@gmail.com" method="POST" enctype="text/plain">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <span class="focus-border"></span>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <span class="focus-border"></span>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="subject" placeholder="Subject" required>
+                    <span class="focus-border"></span>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <span class="focus-border"></span>
+                </div>
+                <button type="submit" class="btn submit-btn">
+                    <span>Send Message</span>
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Kelvin Kagwi</h3>
+                <p>Data Scientist | Digital Marketer | Project Manager</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fas fa-link"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-envelope"></i> kelvinmwas8@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +254 XXX XXX XXX</p>
+                <p><i class="fas fa-map-marker-alt"></i> Nairobi, Kenya</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Kelvin Kagwi. All rights reserved.</p>
+            <p>Designed with <i class="fas fa-heart"></i> by Kelvin Kagwi</p>
+        </div>
+    </footer>
+
+    <div id="success-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <i class="fas fa-check-circle"></i>
+            <h3>Message Sent!</h3>
+            <p>Thank you for your message. I'll get back to you soon!</p>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/vanilla-tilt@1.7.0/dist/vanilla-tilt.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+</body>
+</html>
